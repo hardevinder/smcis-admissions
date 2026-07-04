@@ -211,10 +211,10 @@ export default function EnquiryPage() {
       <div className="absolute inset-x-0 top-0 z-0 h-1.5 bg-gradient-to-r from-[#1f276f] via-[#0f6b43] to-[#ffb22d]" />
 
       <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <header className="mb-6 rounded-3xl border border-white/80 bg-white/90 px-4 py-4 shadow-xl shadow-slate-900/5 backdrop-blur sm:px-6">
-          <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
+        <header className="mb-5 rounded-3xl border border-white/80 bg-white/90 px-4 py-4 shadow-xl shadow-slate-900/5 backdrop-blur sm:px-6">
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex items-center gap-4">
-              <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-[#ffb22d]/35 bg-white p-1.5 shadow-md sm:h-20 sm:w-20">
+              <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-[#ffb22d]/35 bg-white p-1.5 shadow-md sm:h-20 sm:w-20">
                 <Image
                   src="/images/smcis/logo.png"
                   alt="Seth Malook Chand International School logo"
@@ -229,32 +229,18 @@ export default function EnquiryPage() {
                 <p className="text-xs font-black uppercase tracking-[0.24em] text-[#0f6b43]">
                   Admissions Open
                 </p>
-                <h1 className="mt-1 text-xl font-black text-[#1f276f] sm:text-3xl">
+                <h1 className="mt-1 text-2xl font-black leading-tight text-[#1f276f] sm:text-3xl">
                   Seth Malook Chand International School
                 </h1>
                 <p className="mt-1 text-sm font-bold text-slate-500">
                   Admission Enquiry for Session {SESSION_LABEL}
                 </p>
+
+
               </div>
             </div>
 
-            <div className="grid overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 text-center shadow-sm sm:grid-cols-3 lg:min-w-[360px]">
-              {[
-                ["CBSE", "Affiliated"],
-                [SESSION_LABEL, "Session"],
-                ["Sasni", "Campus"],
-              ].map(([value, label]) => (
-                <div
-                  key={label}
-                  className="border-b border-slate-200 px-4 py-3 last:border-b-0 sm:border-b-0 sm:border-r sm:last:border-r-0"
-                >
-                  <p className="text-base font-black text-[#1f276f]">{value}</p>
-                  <p className="mt-1 text-[10px] font-black uppercase tracking-[0.16em] text-slate-500">
-                    {label}
-                  </p>
-                </div>
-              ))}
-            </div>
+
           </div>
         </header>
 

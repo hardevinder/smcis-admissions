@@ -180,121 +180,74 @@ function EnquiryPage() {
                 className: "mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                        className: "mb-6 rounded-3xl border border-white/80 bg-white/90 px-4 py-4 shadow-xl shadow-slate-900/5 backdrop-blur sm:px-6",
+                        className: "mb-5 rounded-3xl border border-white/80 bg-white/90 px-4 py-4 shadow-xl shadow-slate-900/5 backdrop-blur sm:px-6",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-[#ffb22d]/35 bg-white p-1.5 shadow-md sm:h-20 sm:w-20",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                src: "/images/smcis/logo.png",
-                                                alt: "Seth Malook Chand International School logo",
-                                                width: 80,
-                                                height: 80,
-                                                className: "h-full w-full object-contain",
-                                                priority: true
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 218,
-                                                columnNumber: 17
-                                            }, this)
+                            className: "flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex items-center gap-4",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-[#ffb22d]/35 bg-white p-1.5 shadow-md sm:h-20 sm:w-20",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "/images/smcis/logo.png",
+                                            alt: "Seth Malook Chand International School logo",
+                                            width: 80,
+                                            height: 80,
+                                            className: "h-full w-full object-contain",
+                                            priority: true
                                         }, void 0, false, {
                                             fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 217,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "leading-tight",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-xs font-black uppercase tracking-[0.24em] text-[#0f6b43]",
-                                                    children: "Admissions Open"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 229,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "mt-1 text-xl font-black text-[#1f276f] sm:text-3xl",
-                                                    children: "Seth Malook Chand International School"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 232,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mt-1 text-sm font-bold text-slate-500",
-                                                    children: [
-                                                        "Admission Enquiry for Session ",
-                                                        SESSION_LABEL
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 235,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 228,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/enquiry/page.tsx",
-                                    lineNumber: 216,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "grid overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 text-center shadow-sm sm:grid-cols-3 lg:min-w-[360px]",
-                                    children: [
-                                        [
-                                            "CBSE",
-                                            "Affiliated"
-                                        ],
-                                        [
-                                            SESSION_LABEL,
-                                            "Session"
-                                        ],
-                                        [
-                                            "Sasni",
-                                            "Campus"
-                                        ]
-                                    ].map(([value, label])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "border-b border-slate-200 px-4 py-3 last:border-b-0 sm:border-b-0 sm:border-r sm:last:border-r-0",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-base font-black text-[#1f276f]",
-                                                    children: value
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 251,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mt-1 text-[10px] font-black uppercase tracking-[0.16em] text-slate-500",
-                                                    children: label
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 252,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, label, true, {
-                                            fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 247,
+                                            lineNumber: 218,
                                             columnNumber: 17
-                                        }, this))
-                                }, void 0, false, {
-                                    fileName: "[project]/app/enquiry/page.tsx",
-                                    lineNumber: 241,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/enquiry/page.tsx",
+                                        lineNumber: 217,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "leading-tight",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-xs font-black uppercase tracking-[0.24em] text-[#0f6b43]",
+                                                children: "Admissions Open"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/enquiry/page.tsx",
+                                                lineNumber: 229,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                className: "mt-1 text-2xl font-black leading-tight text-[#1f276f] sm:text-3xl",
+                                                children: "Seth Malook Chand International School"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/enquiry/page.tsx",
+                                                lineNumber: 232,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "mt-1 text-sm font-bold text-slate-500",
+                                                children: [
+                                                    "Admission Enquiry for Session ",
+                                                    SESSION_LABEL
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/enquiry/page.tsx",
+                                                lineNumber: 235,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/enquiry/page.tsx",
+                                        lineNumber: 228,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/enquiry/page.tsx",
+                                lineNumber: 216,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/app/enquiry/page.tsx",
                             lineNumber: 215,
                             columnNumber: 11
@@ -324,14 +277,14 @@ function EnquiryPage() {
                                                     priority: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 265,
+                                                    lineNumber: 251,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute inset-0 bg-gradient-to-t from-[#11164b] via-[#11164b]/55 to-[#11164b]/10"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 273,
+                                                    lineNumber: 259,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -341,7 +294,7 @@ function EnquiryPage() {
                                                             className: "h-4 w-4 text-[#ffb22d]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 276,
+                                                            lineNumber: 262,
                                                             columnNumber: 19
                                                         }, this),
                                                         "Admissions ",
@@ -349,7 +302,7 @@ function EnquiryPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 275,
+                                                    lineNumber: 261,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -360,7 +313,7 @@ function EnquiryPage() {
                                                             children: "Begin your child's SMCIS journey"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 281,
+                                                            lineNumber: 267,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -368,19 +321,19 @@ function EnquiryPage() {
                                                             children: "Submit the enquiry form and the admissions team will guide you with class availability, fee details and next steps."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 284,
+                                                            lineNumber: 270,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 280,
+                                                    lineNumber: 266,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 264,
+                                            lineNumber: 250,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -410,7 +363,7 @@ function EnquiryPage() {
                                                                     className: "h-5 w-5 shrink-0 text-[#ffb22d]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 304,
+                                                                    lineNumber: 290,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -418,19 +371,19 @@ function EnquiryPage() {
                                                                     children: item.label
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 305,
+                                                                    lineNumber: 291,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, item.label, true, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 300,
+                                                            lineNumber: 286,
                                                             columnNumber: 23
                                                         }, this);
                                                     })
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 292,
+                                                    lineNumber: 278,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -444,14 +397,14 @@ function EnquiryPage() {
                                                                     className: "h-4 w-4 shrink-0 text-[#ffb22d]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 316,
+                                                                    lineNumber: 302,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "7055000524 / 7055000525"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 312,
+                                                            lineNumber: 298,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -462,14 +415,14 @@ function EnquiryPage() {
                                                                     className: "h-4 w-4 shrink-0 text-[#ffb22d]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 324,
+                                                                    lineNumber: 310,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "admissions@smcis.in"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 320,
+                                                            lineNumber: 306,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -479,37 +432,37 @@ function EnquiryPage() {
                                                                     className: "mt-0.5 h-4 w-4 shrink-0 text-[#ffb22d]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 329,
+                                                                    lineNumber: 315,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "OPP. Manglayatan Mandir, Aligarh-Agra Road, Sasni (U.P.) - 204216"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 328,
+                                                            lineNumber: 314,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 311,
+                                                    lineNumber: 297,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 291,
+                                            lineNumber: 277,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/enquiry/page.tsx",
-                                    lineNumber: 263,
+                                    lineNumber: 249,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/enquiry/page.tsx",
-                                lineNumber: 262,
+                                lineNumber: 248,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -525,7 +478,7 @@ function EnquiryPage() {
                                                         children: "Admission Enquiry Form"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 340,
+                                                        lineNumber: 326,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -533,7 +486,7 @@ function EnquiryPage() {
                                                         children: "Parent & Student Details"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 343,
+                                                        lineNumber: 329,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -546,20 +499,20 @@ function EnquiryPage() {
                                                                 children: "*"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 348,
+                                                                lineNumber: 334,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " are mandatory."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 346,
+                                                        lineNumber: 332,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 339,
+                                                lineNumber: 325,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -569,20 +522,20 @@ function EnquiryPage() {
                                                         className: "h-5 w-5 text-[#0f6b43]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 353,
+                                                        lineNumber: 339,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Secure Admission Record"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 352,
+                                                lineNumber: 338,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/enquiry/page.tsx",
-                                        lineNumber: 338,
+                                        lineNumber: 324,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -599,14 +552,14 @@ function EnquiryPage() {
                                                                 className: "h-4 w-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 361,
+                                                                lineNumber: 347,
                                                                 columnNumber: 19
                                                             }, this),
                                                             "Basic Details"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 360,
+                                                        lineNumber: 346,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -624,13 +577,13 @@ function EnquiryPage() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 368,
+                                                                                lineNumber: 354,
                                                                                 columnNumber: 36
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 367,
+                                                                        lineNumber: 353,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -645,13 +598,13 @@ function EnquiryPage() {
                                                                         required: true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 370,
+                                                                        lineNumber: 356,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 366,
+                                                                lineNumber: 352,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -666,13 +619,13 @@ function EnquiryPage() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 385,
+                                                                                lineNumber: 371,
                                                                                 columnNumber: 46
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 384,
+                                                                        lineNumber: 370,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -687,13 +640,13 @@ function EnquiryPage() {
                                                                         required: true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 387,
+                                                                        lineNumber: 373,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 383,
+                                                                lineNumber: 369,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -708,13 +661,13 @@ function EnquiryPage() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 402,
+                                                                                lineNumber: 388,
                                                                                 columnNumber: 40
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 401,
+                                                                        lineNumber: 387,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -725,7 +678,7 @@ function EnquiryPage() {
                                                                                 children: "+91"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 405,
+                                                                                lineNumber: 391,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -742,13 +695,13 @@ function EnquiryPage() {
                                                                                 required: true
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 408,
+                                                                                lineNumber: 394,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 404,
+                                                                        lineNumber: 390,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     phoneError ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -756,13 +709,13 @@ function EnquiryPage() {
                                                                         children: phoneError
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 423,
+                                                                        lineNumber: 409,
                                                                         columnNumber: 23
                                                                     }, this) : null
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 400,
+                                                                lineNumber: 386,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -773,7 +726,7 @@ function EnquiryPage() {
                                                                         children: "Email"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 428,
+                                                                        lineNumber: 414,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -788,25 +741,25 @@ function EnquiryPage() {
                                                                         maxLength: 100
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 431,
+                                                                        lineNumber: 417,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 427,
+                                                                lineNumber: 413,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 365,
+                                                        lineNumber: 351,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 359,
+                                                lineNumber: 345,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -819,14 +772,14 @@ function EnquiryPage() {
                                                                 className: "h-4 w-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 448,
+                                                                lineNumber: 434,
                                                                 columnNumber: 19
                                                             }, this),
                                                             "Admission Details"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 447,
+                                                        lineNumber: 433,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -844,13 +797,13 @@ function EnquiryPage() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 455,
+                                                                                lineNumber: 441,
                                                                                 columnNumber: 44
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 454,
+                                                                        lineNumber: 440,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -866,7 +819,7 @@ function EnquiryPage() {
                                                                                 children: "Select class"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 465,
+                                                                                lineNumber: 451,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             classOptions.map((className)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -874,19 +827,19 @@ function EnquiryPage() {
                                                                                     children: className
                                                                                 }, className, false, {
                                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                                    lineNumber: 467,
+                                                                                    lineNumber: 453,
                                                                                     columnNumber: 25
                                                                                 }, this))
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 457,
+                                                                        lineNumber: 443,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 453,
+                                                                lineNumber: 439,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -897,7 +850,7 @@ function EnquiryPage() {
                                                                         children: "Gender"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 475,
+                                                                        lineNumber: 461,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -912,7 +865,7 @@ function EnquiryPage() {
                                                                                 children: "Select gender"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 485,
+                                                                                lineNumber: 471,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -920,7 +873,7 @@ function EnquiryPage() {
                                                                                 children: "Male"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 486,
+                                                                                lineNumber: 472,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -928,7 +881,7 @@ function EnquiryPage() {
                                                                                 children: "Female"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 487,
+                                                                                lineNumber: 473,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -936,19 +889,19 @@ function EnquiryPage() {
                                                                                 children: "Other"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 488,
+                                                                                lineNumber: 474,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 478,
+                                                                        lineNumber: 464,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 474,
+                                                                lineNumber: 460,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -959,7 +912,7 @@ function EnquiryPage() {
                                                                         children: "Date of Birth"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 493,
+                                                                        lineNumber: 479,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -971,13 +924,13 @@ function EnquiryPage() {
                                                                         className: inputClass
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 496,
+                                                                        lineNumber: 482,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 492,
+                                                                lineNumber: 478,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -988,7 +941,7 @@ function EnquiryPage() {
                                                                         children: "Previous School"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 507,
+                                                                        lineNumber: 493,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1001,25 +954,25 @@ function EnquiryPage() {
                                                                         maxLength: 120
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 510,
+                                                                        lineNumber: 496,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 506,
+                                                                lineNumber: 492,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 452,
+                                                        lineNumber: 438,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 446,
+                                                lineNumber: 432,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1032,14 +985,14 @@ function EnquiryPage() {
                                                                 className: "h-4 w-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 525,
+                                                                lineNumber: 511,
                                                                 columnNumber: 19
                                                             }, this),
                                                             "Address Details"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 524,
+                                                        lineNumber: 510,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1053,7 +1006,7 @@ function EnquiryPage() {
                                                                         children: "City"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 531,
+                                                                        lineNumber: 517,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1067,13 +1020,13 @@ function EnquiryPage() {
                                                                         maxLength: 80
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 534,
+                                                                        lineNumber: 520,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 530,
+                                                                lineNumber: 516,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1085,7 +1038,7 @@ function EnquiryPage() {
                                                                         children: "Remarks"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 547,
+                                                                        lineNumber: 533,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -1098,13 +1051,13 @@ function EnquiryPage() {
                                                                         maxLength: 500
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 550,
+                                                                        lineNumber: 536,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 546,
+                                                                lineNumber: 532,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1115,7 +1068,7 @@ function EnquiryPage() {
                                                                         children: "Full Address"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 562,
+                                                                        lineNumber: 548,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1129,25 +1082,25 @@ function EnquiryPage() {
                                                                         maxLength: 160
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 565,
+                                                                        lineNumber: 551,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 561,
+                                                                lineNumber: 547,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 529,
+                                                        lineNumber: 515,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 523,
+                                                lineNumber: 509,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1155,7 +1108,7 @@ function EnquiryPage() {
                                                 children: "SMCIS maintains confidentiality of submitted data and uses it only for admission-related communication."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 579,
+                                                lineNumber: 565,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1169,31 +1122,31 @@ function EnquiryPage() {
                                                         className: "ml-2 h-5 w-5 transition group-hover:translate-x-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 591,
+                                                        lineNumber: 577,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 584,
+                                                lineNumber: 570,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/enquiry/page.tsx",
-                                        lineNumber: 358,
+                                        lineNumber: 344,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/enquiry/page.tsx",
-                                lineNumber: 337,
+                                lineNumber: 323,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/enquiry/page.tsx",
-                        lineNumber: 261,
+                        lineNumber: 247,
                         columnNumber: 9
                     }, this)
                 ]
