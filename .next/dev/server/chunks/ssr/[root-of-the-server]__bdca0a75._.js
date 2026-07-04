@@ -18,16 +18,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sweetalert2$2f$dist$2f$sweetalert2$2e$esm$2e$all$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/sweetalert2/dist/sweetalert2.esm.all.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-ssr] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2d$check$2d$2$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarCheck2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar-check-2.js [app-ssr] (ecmascript) <export default as CalendarCheck2>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-check.js [app-ssr] (ecmascript) <export default as CheckCircle2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clipboard$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ClipboardCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/clipboard-check.js [app-ssr] (ecmascript) <export default as ClipboardCheck>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/graduation-cap.js [app-ssr] (ecmascript) <export default as GraduationCap>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail.js [app-ssr] (ecmascript) <export default as Mail>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-ssr] (ecmascript) <export default as MapPin>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.js [app-ssr] (ecmascript) <export default as Phone>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$school$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__School$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/school.js [app-ssr] (ecmascript) <export default as School>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield-check.js [app-ssr] (ecmascript) <export default as ShieldCheck>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/sparkles.js [app-ssr] (ecmascript) <export default as Sparkles>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2d$round$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UsersRound$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/users-round.js [app-ssr] (ecmascript) <export default as UsersRound>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2d$round$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UserRound$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/user-round.js [app-ssr] (ecmascript) <export default as UserRound>");
 "use client";
 ;
@@ -36,6 +33,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 ;
 const API_BASE_URL = (process.env.NEXT_PUBLIC_API_URL || "https://api-smcis.edubridgeerp.in").replace(/\/$/, "");
+const SESSION_LABEL = "2026-27";
 const initialForm = {
     student_name: "",
     parent_name: "",
@@ -63,7 +61,9 @@ const classOptions = [
     "7th",
     "8th"
 ];
-const inputClass = "w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-900 outline-none shadow-sm transition placeholder:text-slate-400 focus:border-[#1f276f] focus:ring-4 focus:ring-[#1f276f]/10";
+const inputClass = "w-full rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-900 outline-none shadow-sm transition placeholder:text-slate-400 hover:border-slate-300 focus:border-[#1f276f] focus:ring-4 focus:ring-[#1f276f]/10";
+const labelClass = "mb-2 block text-[11px] font-black uppercase tracking-[0.16em] text-slate-600";
+const sectionTitleClass = "mb-4 flex items-center gap-2 text-xs font-black uppercase tracking-[0.2em] text-[#1f276f]";
 function EnquiryPage() {
     const [formData, setFormData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(initialForm);
     const [isSubmitting, setIsSubmitting] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -81,7 +81,9 @@ function EnquiryPage() {
     };
     const handleSubmit = async (event)=>{
         event.preventDefault();
+        if (isSubmitting) return;
         const digitsOnly = formData.phone.replace(/\D/g, "");
+        const email = formData.email.trim();
         if (!formData.student_name.trim()) {
             await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sweetalert2$2f$dist$2f$sweetalert2$2e$esm$2e$all$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].fire("Student Name Required", "Please enter the student name.", "warning");
             return;
@@ -93,6 +95,10 @@ function EnquiryPage() {
         if (digitsOnly.length !== 10) {
             setPhoneError("Please enter a valid 10-digit mobile number.");
             await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sweetalert2$2f$dist$2f$sweetalert2$2e$esm$2e$all$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].fire("Invalid Phone", "Phone number must be exactly 10 digits. Example: 9876543210", "error");
+            return;
+        }
+        if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sweetalert2$2f$dist$2f$sweetalert2$2e$esm$2e$all$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].fire("Invalid Email", "Please enter a valid email address.", "warning");
             return;
         }
         if (!formData.class_interested) {
@@ -108,7 +114,7 @@ function EnquiryPage() {
             father_name: parentName,
             mother_name: "",
             phone: `+91${digitsOnly}`,
-            email: formData.email.trim(),
+            email,
             city: formData.city.trim(),
             address: formData.address.trim() || formData.city.trim(),
             class_interested: formData.class_interested,
@@ -117,7 +123,7 @@ function EnquiryPage() {
             previous_school: formData.previous_school.trim(),
             remarks: formData.remarks.trim(),
             source: "SMCIS Admission Form",
-            session: "2026-27"
+            session: SESSION_LABEL
         };
         try {
             const response = await fetch(`${API_BASE_URL}/enquiries`, {
@@ -142,115 +148,118 @@ function EnquiryPage() {
             }
             await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sweetalert2$2f$dist$2f$sweetalert2$2e$esm$2e$all$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].fire("Thank You!", "Your admission enquiry has been submitted successfully. The school team will contact you soon.", "success");
             setFormData(initialForm);
-        } catch (error) {
-            console.error("Error submitting enquiry:", error);
+            setPhoneError("");
+        } catch  {
             await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sweetalert2$2f$dist$2f$sweetalert2$2e$esm$2e$all$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].fire("Unable to Connect", "Please check your internet connection and try again.", "error");
         } finally{
             setIsSubmitting(false);
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "relative min-h-screen overflow-hidden bg-[#f5f7f2] text-slate-950",
+        className: "relative min-h-screen overflow-hidden bg-[#f6f7f2] text-slate-950",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 -z-10 bg-[linear-gradient(135deg,#fff7e3_0%,#f5f7f2_34%,#eef7f1_62%,#edf2ff_100%)]"
+                className: "absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,#fff1c8_0,transparent_34%),radial-gradient(circle_at_top_right,#dff6ea_0,transparent_32%),linear-gradient(135deg,#fffaf0_0%,#f6f7f2_45%,#eef4ff_100%)]"
             }, void 0, false, {
                 fileName: "[project]/app/enquiry/page.tsx",
-                lineNumber: 195,
+                lineNumber: 209,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 -z-10 opacity-[0.07] [background-image:linear-gradient(#1f276f_1px,transparent_1px),linear-gradient(90deg,#1f276f_1px,transparent_1px)] [background-size:36px_36px]"
+                className: "absolute inset-0 -z-10 opacity-[0.055] [background-image:linear-gradient(#1f276f_1px,transparent_1px),linear-gradient(90deg,#1f276f_1px,transparent_1px)] [background-size:38px_38px]"
             }, void 0, false, {
                 fileName: "[project]/app/enquiry/page.tsx",
-                lineNumber: 196,
+                lineNumber: 210,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-x-0 top-0 -z-10 h-2 bg-gradient-to-r from-[#1f276f] via-[#0f6b43] to-[#ffb22d]"
+                className: "absolute inset-x-0 top-0 z-0 h-1.5 bg-gradient-to-r from-[#1f276f] via-[#0f6b43] to-[#ffb22d]"
             }, void 0, false, {
                 fileName: "[project]/app/enquiry/page.tsx",
-                lineNumber: 197,
+                lineNumber: 211,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                        className: "mb-6 rounded-lg border border-white/80 bg-white/90 px-4 py-4 shadow-xl shadow-slate-900/5 backdrop-blur sm:px-6",
+                        className: "mb-6 rounded-3xl border border-white/80 bg-white/90 px-4 py-4 shadow-xl shadow-slate-900/5 backdrop-blur sm:px-6",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between",
+                            className: "flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center gap-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "flex h-16 w-16 shrink-0 items-center justify-center rounded-lg border border-[#ffb22d]/35 bg-white p-1 shadow-md",
+                                            className: "flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-[#ffb22d]/35 bg-white p-1.5 shadow-md sm:h-20 sm:w-20",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/images/smcis/logo.png",
-                                                alt: "SMCIS Logo",
-                                                width: 64,
-                                                height: 64,
+                                                alt: "Seth Malook Chand International School logo",
+                                                width: 80,
+                                                height: 80,
                                                 className: "h-full w-full object-contain",
                                                 priority: true
                                             }, void 0, false, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 204,
+                                                lineNumber: 218,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 203,
+                                            lineNumber: 217,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "leading-tight",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-xs font-black uppercase tracking-[0.22em] text-[#1f276f]",
-                                                    children: "SMCIS"
+                                                    className: "text-xs font-black uppercase tracking-[0.24em] text-[#0f6b43]",
+                                                    children: "Admissions Open"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 207,
+                                                    lineNumber: 229,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: "mt-1 text-lg font-black text-slate-950 sm:text-2xl",
+                                                    className: "mt-1 text-xl font-black text-[#1f276f] sm:text-3xl",
                                                     children: "Seth Malook Chand International School"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 208,
+                                                    lineNumber: 232,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mt-1 text-xs font-bold text-slate-500 sm:text-sm",
-                                                    children: "Admission Form for Session 2026-27"
-                                                }, void 0, false, {
+                                                    className: "mt-1 text-sm font-bold text-slate-500",
+                                                    children: [
+                                                        "Admission Enquiry for Session ",
+                                                        SESSION_LABEL
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 211,
+                                                    lineNumber: 235,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 206,
+                                            lineNumber: 228,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/enquiry/page.tsx",
-                                    lineNumber: 202,
+                                    lineNumber: 216,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-3 overflow-hidden rounded-lg border border-slate-200 bg-slate-50 text-center shadow-sm sm:min-w-80",
+                                    className: "grid overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 text-center shadow-sm sm:grid-cols-3 lg:min-w-[360px]",
                                     children: [
                                         [
                                             "CBSE",
                                             "Affiliated"
                                         ],
                                         [
-                                            "2026-27",
+                                            SESSION_LABEL,
                                             "Session"
                                         ],
                                         [
@@ -258,145 +267,128 @@ function EnquiryPage() {
                                             "Campus"
                                         ]
                                     ].map(([value, label])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "border-r border-slate-200 px-3 py-2 last:border-r-0",
+                                            className: "border-b border-slate-200 px-4 py-3 last:border-b-0 sm:border-b-0 sm:border-r sm:last:border-r-0",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm font-black text-[#1f276f]",
+                                                    className: "text-base font-black text-[#1f276f]",
                                                     children: value
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 224,
+                                                    lineNumber: 251,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mt-0.5 text-[10px] font-bold uppercase tracking-wide text-slate-500",
+                                                    className: "mt-1 text-[10px] font-black uppercase tracking-[0.16em] text-slate-500",
                                                     children: label
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 225,
+                                                    lineNumber: 252,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, label, true, {
                                             fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 223,
+                                            lineNumber: 247,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/enquiry/page.tsx",
-                                    lineNumber: 217,
+                                    lineNumber: 241,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/enquiry/page.tsx",
-                            lineNumber: 201,
+                            lineNumber: 215,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/enquiry/page.tsx",
-                        lineNumber: 200,
+                        lineNumber: 214,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "grid gap-6 lg:grid-cols-[0.78fr_1.22fr] lg:items-start",
+                        className: "grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-start",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
                                 className: "lg:sticky lg:top-6",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "overflow-hidden rounded-lg border border-white/70 bg-[#1f276f] text-white shadow-2xl shadow-[#1f276f]/20",
+                                    className: "overflow-hidden rounded-3xl border border-white/70 bg-[#1f276f] text-white shadow-2xl shadow-[#1f276f]/20",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "relative h-72 overflow-hidden",
+                                            className: "relative h-[360px] overflow-hidden sm:h-[430px] lg:h-[520px]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     src: "/images/smcis/primary.webp",
-                                                    alt: "SMCIS admission enquiry",
+                                                    alt: "SMCIS campus and students",
                                                     fill: true,
-                                                    sizes: "(min-width: 1024px) 36vw, 100vw",
+                                                    sizes: "(min-width: 1024px) 38vw, 100vw",
                                                     className: "object-cover",
                                                     priority: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 265,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "absolute inset-0 bg-gradient-to-t from-[#11164b] via-[#11164b]/45 to-transparent"
+                                                    className: "absolute inset-0 bg-gradient-to-t from-[#11164b] via-[#11164b]/55 to-[#11164b]/10"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 273,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "absolute left-5 top-5 flex h-20 w-20 items-center justify-center rounded-lg border border-white/60 bg-white/90 p-2 shadow-xl",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        src: "/images/smcis/logo.png",
-                                                        alt: "SMCIS Logo",
-                                                        width: 80,
-                                                        height: 80,
-                                                        className: "h-full w-full object-contain"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 239,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 238,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "absolute bottom-5 left-5 right-5",
+                                                    className: "absolute left-5 top-5 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/15 px-4 py-2 text-xs font-black uppercase tracking-[0.18em] text-white shadow-lg backdrop-blur-md",
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "mb-3 inline-flex items-center gap-2 rounded-lg bg-white/15 px-3 py-1.5 text-xs font-black uppercase tracking-[0.18em] backdrop-blur",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
-                                                                    className: "h-4 w-4 text-[#ffb22d]"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 243,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                " Admissions Open"
-                                                            ]
-                                                        }, void 0, true, {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
+                                                            className: "h-4 w-4 text-[#ffb22d]"
+                                                        }, void 0, false, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 242,
+                                                            lineNumber: 276,
                                                             columnNumber: 19
                                                         }, this),
+                                                        "Admissions ",
+                                                        SESSION_LABEL
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/enquiry/page.tsx",
+                                                    lineNumber: 275,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute bottom-0 left-0 right-0 p-5 sm:p-7",
+                                                    children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                            className: "text-3xl font-black leading-tight",
+                                                            className: "max-w-md text-3xl font-black leading-tight sm:text-5xl",
                                                             children: "Begin your child's SMCIS journey"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 245,
+                                                            lineNumber: 281,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "mt-4 max-w-md text-sm font-medium leading-7 text-blue-50 sm:text-base",
+                                                            children: "Submit the enquiry form and the admissions team will guide you with class availability, fee details and next steps."
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/enquiry/page.tsx",
+                                                            lineNumber: 284,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 241,
+                                                    lineNumber: 280,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 235,
+                                            lineNumber: 264,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "space-y-5 p-6",
+                                            className: "space-y-4 p-5 sm:p-6",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-sm leading-7 text-blue-100",
-                                                    children: "Share parent and student details with the admissions team for class availability, fee guidance and next steps."
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 250,
-                                                    columnNumber: 17
-                                                }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "grid gap-3",
                                                     children: [
@@ -410,18 +402,18 @@ function EnquiryPage() {
                                                         },
                                                         {
                                                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2d$check$2d$2$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarCheck2$3e$__["CalendarCheck2"],
-                                                            label: "Admissions open for 2026-27"
+                                                            label: "Admissions open for session 2026-27"
                                                         }
                                                     ].map((item)=>{
                                                         const Icon = item.icon;
                                                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-3 rounded-lg bg-white/10 p-3 ring-1 ring-white/10",
+                                                            className: "flex items-center gap-3 rounded-2xl bg-white/10 p-3.5 ring-1 ring-white/10",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                                                    className: "h-5 w-5 text-[#ffb22d]"
+                                                                    className: "h-5 w-5 shrink-0 text-[#ffb22d]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 263,
+                                                                    lineNumber: 304,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -429,103 +421,105 @@ function EnquiryPage() {
                                                                     children: item.label
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 264,
+                                                                    lineNumber: 305,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, item.label, true, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 262,
+                                                            lineNumber: 300,
                                                             columnNumber: 23
                                                         }, this);
                                                     })
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 254,
+                                                    lineNumber: 292,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "rounded-lg bg-white/10 p-4 ring-1 ring-white/10",
+                                                    className: "rounded-2xl bg-white/10 p-4 ring-1 ring-white/10",
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex items-center gap-3 text-sm font-bold text-blue-50",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                            href: "tel:+917055000524",
+                                                            className: "flex items-center gap-3 text-sm font-bold text-blue-50 transition hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                                                    className: "h-4 w-4 text-[#ffb22d]"
+                                                                    className: "h-4 w-4 shrink-0 text-[#ffb22d]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 271,
-                                                                    columnNumber: 91
+                                                                    lineNumber: 316,
+                                                                    columnNumber: 21
                                                                 }, this),
-                                                                " 7055000524 / 7055000525"
+                                                                "7055000524 / 7055000525"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 271,
+                                                            lineNumber: 312,
                                                             columnNumber: 19
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "mt-3 flex items-center gap-3 text-sm font-bold text-blue-50",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                            href: "mailto:admissions@smcis.in",
+                                                            className: "mt-3 flex items-center gap-3 text-sm font-bold text-blue-50 transition hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
-                                                                    className: "h-4 w-4 text-[#ffb22d]"
+                                                                    className: "h-4 w-4 shrink-0 text-[#ffb22d]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 272,
-                                                                    columnNumber: 96
+                                                                    lineNumber: 324,
+                                                                    columnNumber: 21
                                                                 }, this),
-                                                                " admissions@smcis.in"
+                                                                "admissions@smcis.in"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 272,
+                                                            lineNumber: 320,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "mt-3 flex items-start gap-3 text-sm font-bold text-blue-50",
+                                                            className: "mt-3 flex items-start gap-3 text-sm font-bold leading-6 text-blue-50",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
                                                                     className: "mt-0.5 h-4 w-4 shrink-0 text-[#ffb22d]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                    lineNumber: 273,
-                                                                    columnNumber: 95
+                                                                    lineNumber: 329,
+                                                                    columnNumber: 21
                                                                 }, this),
-                                                                " OPP. Manglayatan Mandir, Aligarh-Agra Road, Sasni (U.P.) - 204216"
+                                                                "OPP. Manglayatan Mandir, Aligarh-Agra Road, Sasni (U.P.) - 204216"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/enquiry/page.tsx",
-                                                            lineNumber: 273,
+                                                            lineNumber: 328,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                    lineNumber: 270,
+                                                    lineNumber: 311,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/enquiry/page.tsx",
-                                            lineNumber: 249,
+                                            lineNumber: 291,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/enquiry/page.tsx",
-                                    lineNumber: 234,
+                                    lineNumber: 263,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/enquiry/page.tsx",
-                                lineNumber: 233,
+                                lineNumber: 262,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "rounded-lg border border-white/80 bg-white/95 p-4 shadow-2xl shadow-[#1f276f]/10 backdrop-blur-xl sm:p-6 lg:p-8",
+                                className: "rounded-3xl border border-white/80 bg-white/95 p-4 shadow-2xl shadow-[#1f276f]/10 backdrop-blur-xl sm:p-6 lg:p-8",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mb-6 flex flex-col justify-between gap-4 sm:flex-row sm:items-start",
+                                        className: "mb-7 flex flex-col justify-between gap-4 xl:flex-row xl:items-start",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: [
@@ -534,86 +528,88 @@ function EnquiryPage() {
                                                         children: "Admission Enquiry Form"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 282,
+                                                        lineNumber: 340,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                        className: "mt-2 text-2xl font-black text-[#1f276f] sm:text-4xl",
+                                                        className: "mt-2 text-3xl font-black text-[#1f276f] sm:text-4xl",
                                                         children: "Parent & Student Details"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 283,
+                                                        lineNumber: 343,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "mt-2 text-sm font-medium text-slate-600",
+                                                        className: "mt-2 text-sm font-semibold text-slate-600",
                                                         children: [
-                                                            "Fields marked with ",
+                                                            "Please fill the required details carefully. Fields marked with",
+                                                            " ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "text-red-500",
                                                                 children: "*"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 284,
-                                                                columnNumber: 91
+                                                                lineNumber: 348,
+                                                                columnNumber: 19
                                                             }, this),
-                                                            " are required."
+                                                            " are mandatory."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 284,
+                                                        lineNumber: 346,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 281,
+                                                lineNumber: 339,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex items-center gap-2 rounded-lg bg-[#fff7e3] px-4 py-3 text-sm font-black text-[#1f276f] ring-1 ring-[#ffb22d]/25",
+                                                className: "inline-flex items-center gap-2 rounded-2xl bg-[#fff7e3] px-4 py-3 text-sm font-black text-[#1f276f] ring-1 ring-[#ffb22d]/25",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clipboard$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ClipboardCheck$3e$__["ClipboardCheck"], {
                                                         className: "h-5 w-5 text-[#0f6b43]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 287,
+                                                        lineNumber: 353,
                                                         columnNumber: 17
                                                     }, this),
-                                                    " Secure Admission Record"
+                                                    "Secure Admission Record"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 286,
+                                                lineNumber: 352,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/enquiry/page.tsx",
-                                        lineNumber: 280,
+                                        lineNumber: 338,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                         onSubmit: handleSubmit,
-                                        className: "space-y-7",
+                                        className: "space-y-8",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                                                className: "rounded-3xl border border-slate-100 bg-slate-50/60 p-4 sm:p-5",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "mb-3 flex items-center gap-2 text-sm font-black uppercase tracking-[0.18em] text-[#1f276f]",
+                                                        className: sectionTitleClass,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2d$round$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UserRound$3e$__["UserRound"], {
                                                                 className: "h-4 w-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 294,
+                                                                lineNumber: 361,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " Basic Details"
+                                                            "Basic Details"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 360,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -622,7 +618,8 @@ function EnquiryPage() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "student_name",
+                                                                        className: labelClass,
                                                                         children: [
                                                                             "Student Name ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -630,36 +627,41 @@ function EnquiryPage() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 298,
-                                                                                columnNumber: 124
+                                                                                lineNumber: 368,
+                                                                                columnNumber: 36
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 298,
+                                                                        lineNumber: 367,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                        id: "student_name",
                                                                         name: "student_name",
                                                                         value: formData.student_name,
                                                                         onChange: handleChange,
                                                                         className: inputClass,
-                                                                        placeholder: "Enter student name"
+                                                                        placeholder: "Enter student name",
+                                                                        autoComplete: "name",
+                                                                        maxLength: 80,
+                                                                        required: true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 299,
+                                                                        lineNumber: 370,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 297,
+                                                                lineNumber: 366,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "parent_name",
+                                                                        className: labelClass,
                                                                         children: [
                                                                             "Parent / Guardian Name ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -667,36 +669,41 @@ function EnquiryPage() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 303,
-                                                                                columnNumber: 134
+                                                                                lineNumber: 385,
+                                                                                columnNumber: 46
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 303,
+                                                                        lineNumber: 384,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                        id: "parent_name",
                                                                         name: "parent_name",
                                                                         value: formData.parent_name,
                                                                         onChange: handleChange,
                                                                         className: inputClass,
-                                                                        placeholder: "Enter parent name"
+                                                                        placeholder: "Enter parent name",
+                                                                        autoComplete: "name",
+                                                                        maxLength: 80,
+                                                                        required: true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 304,
+                                                                        lineNumber: 387,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 302,
+                                                                lineNumber: 383,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "phone",
+                                                                        className: labelClass,
                                                                         children: [
                                                                             "Parent Phone No. ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -704,115 +711,125 @@ function EnquiryPage() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 308,
-                                                                                columnNumber: 128
+                                                                                lineNumber: 402,
+                                                                                columnNumber: 40
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 308,
+                                                                        lineNumber: 401,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "flex overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition focus-within:border-[#1f276f] focus-within:ring-4 focus-within:ring-[#1f276f]/10",
+                                                                        className: "flex overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:border-slate-300 focus-within:border-[#1f276f] focus-within:ring-4 focus-within:ring-[#1f276f]/10",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "flex items-center border-r border-slate-200 bg-slate-50 px-4 text-sm font-black text-slate-500",
                                                                                 children: "+91"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 310,
+                                                                                lineNumber: 405,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                                id: "phone",
                                                                                 name: "phone",
                                                                                 value: formData.phone,
                                                                                 onChange: handleChange,
-                                                                                className: "w-full bg-transparent px-4 py-3 text-sm font-semibold text-slate-900 outline-none placeholder:text-slate-400",
+                                                                                className: "w-full bg-transparent px-4 py-3.5 text-sm font-semibold text-slate-900 outline-none placeholder:text-slate-400",
                                                                                 placeholder: "9876543210",
-                                                                                inputMode: "numeric"
+                                                                                inputMode: "numeric",
+                                                                                autoComplete: "tel",
+                                                                                "aria-invalid": Boolean(phoneError),
+                                                                                maxLength: 10,
+                                                                                required: true
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 311,
+                                                                                lineNumber: 408,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 309,
+                                                                        lineNumber: 404,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     phoneError ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                        className: "mt-1.5 text-xs font-bold text-red-500",
+                                                                        className: "mt-2 text-xs font-bold text-red-500",
                                                                         children: phoneError
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 313,
-                                                                        columnNumber: 35
+                                                                        lineNumber: 423,
+                                                                        columnNumber: 23
                                                                     }, this) : null
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 307,
+                                                                lineNumber: 400,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "email",
+                                                                        className: labelClass,
                                                                         children: "Email"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 317,
+                                                                        lineNumber: 428,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                        id: "email",
                                                                         type: "email",
                                                                         name: "email",
                                                                         value: formData.email,
                                                                         onChange: handleChange,
                                                                         className: inputClass,
-                                                                        placeholder: "parent@example.com"
+                                                                        placeholder: "parent@example.com",
+                                                                        autoComplete: "email",
+                                                                        maxLength: 100
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 318,
+                                                                        lineNumber: 431,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 316,
+                                                                lineNumber: 427,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 296,
+                                                        lineNumber: 365,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 292,
+                                                lineNumber: 359,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                                                className: "rounded-3xl border border-slate-100 bg-white p-4 shadow-sm sm:p-5",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "mb-3 flex items-center gap-2 text-sm font-black uppercase tracking-[0.18em] text-[#1f276f]",
+                                                        className: sectionTitleClass,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__["GraduationCap"], {
                                                                 className: "h-4 w-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 325,
+                                                                lineNumber: 448,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " Admission Details"
+                                                            "Admission Details"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 324,
+                                                        lineNumber: 447,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -821,7 +838,8 @@ function EnquiryPage() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "class_interested",
+                                                                        className: labelClass,
                                                                         children: [
                                                                             "Admission into Grade ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -829,27 +847,29 @@ function EnquiryPage() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 329,
-                                                                                columnNumber: 132
+                                                                                lineNumber: 455,
+                                                                                columnNumber: 44
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 329,
+                                                                        lineNumber: 454,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                                        id: "class_interested",
                                                                         name: "class_interested",
                                                                         value: formData.class_interested,
                                                                         onChange: handleChange,
                                                                         className: inputClass,
+                                                                        required: true,
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                                 value: "",
                                                                                 children: "Select class"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 331,
+                                                                                lineNumber: 465,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             classOptions.map((className)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -857,32 +877,34 @@ function EnquiryPage() {
                                                                                     children: className
                                                                                 }, className, false, {
                                                                                     fileName: "[project]/app/enquiry/page.tsx",
-                                                                                    lineNumber: 332,
-                                                                                    columnNumber: 56
+                                                                                    lineNumber: 467,
+                                                                                    columnNumber: 25
                                                                                 }, this))
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 330,
+                                                                        lineNumber: 457,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 328,
+                                                                lineNumber: 453,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "gender",
+                                                                        className: labelClass,
                                                                         children: "Gender"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 337,
+                                                                        lineNumber: 475,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                                        id: "gender",
                                                                         name: "gender",
                                                                         value: formData.gender,
                                                                         onChange: handleChange,
@@ -893,7 +915,7 @@ function EnquiryPage() {
                                                                                 children: "Select gender"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 339,
+                                                                                lineNumber: 485,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -901,7 +923,7 @@ function EnquiryPage() {
                                                                                 children: "Male"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 340,
+                                                                                lineNumber: 486,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -909,7 +931,7 @@ function EnquiryPage() {
                                                                                 children: "Female"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 341,
+                                                                                lineNumber: 487,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -917,32 +939,34 @@ function EnquiryPage() {
                                                                                 children: "Other"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                                lineNumber: 342,
+                                                                                lineNumber: 488,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 338,
+                                                                        lineNumber: 478,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 336,
+                                                                lineNumber: 474,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "dob",
+                                                                        className: labelClass,
                                                                         children: "Date of Birth"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 347,
+                                                                        lineNumber: 493,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                        id: "dob",
                                                                         type: "date",
                                                                         name: "dob",
                                                                         value: formData.dob,
@@ -950,71 +974,75 @@ function EnquiryPage() {
                                                                         className: inputClass
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 348,
+                                                                        lineNumber: 496,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 346,
+                                                                lineNumber: 492,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "previous_school",
+                                                                        className: labelClass,
                                                                         children: "Previous School"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 352,
+                                                                        lineNumber: 507,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                        id: "previous_school",
                                                                         name: "previous_school",
                                                                         value: formData.previous_school,
                                                                         onChange: handleChange,
                                                                         className: inputClass,
-                                                                        placeholder: "Previous school name"
+                                                                        placeholder: "Previous school name",
+                                                                        maxLength: 120
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 353,
+                                                                        lineNumber: 510,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 351,
+                                                                lineNumber: 506,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 327,
+                                                        lineNumber: 452,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 323,
+                                                lineNumber: 446,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                                                className: "rounded-3xl border border-slate-100 bg-slate-50/60 p-4 sm:p-5",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "mb-3 flex items-center gap-2 text-sm font-black uppercase tracking-[0.18em] text-[#1f276f]",
+                                                        className: sectionTitleClass,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
                                                                 className: "h-4 w-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 360,
+                                                                lineNumber: 525,
                                                                 columnNumber: 19
                                                             }, this),
-                                                            " Address Details"
+                                                            "Address Details"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 359,
+                                                        lineNumber: 524,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1023,193 +1051,164 @@ function EnquiryPage() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "city",
+                                                                        className: labelClass,
                                                                         children: "City"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 364,
+                                                                        lineNumber: 531,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                        id: "city",
                                                                         name: "city",
                                                                         value: formData.city,
                                                                         onChange: handleChange,
                                                                         className: inputClass,
-                                                                        placeholder: "City / Village"
+                                                                        placeholder: "City / Village",
+                                                                        autoComplete: "address-level2",
+                                                                        maxLength: 80
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 365,
+                                                                        lineNumber: 534,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 363,
+                                                                lineNumber: 530,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "md:row-span-2",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "remarks",
+                                                                        className: labelClass,
                                                                         children: "Remarks"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 368,
+                                                                        lineNumber: 547,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                                                                        id: "remarks",
                                                                         name: "remarks",
                                                                         value: formData.remarks,
                                                                         onChange: handleChange,
-                                                                        className: `${inputClass} min-h-28 resize-none`,
-                                                                        placeholder: "Any message for admission team"
+                                                                        className: `${inputClass} min-h-32 resize-none leading-6`,
+                                                                        placeholder: "Any message for admission team",
+                                                                        maxLength: 500
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 369,
+                                                                        lineNumber: 550,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 367,
+                                                                lineNumber: 546,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                        className: "mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600",
+                                                                        htmlFor: "address",
+                                                                        className: labelClass,
                                                                         children: "Full Address"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 372,
+                                                                        lineNumber: 562,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                        id: "address",
                                                                         name: "address",
                                                                         value: formData.address,
                                                                         onChange: handleChange,
                                                                         className: inputClass,
-                                                                        placeholder: "House no., area, city"
+                                                                        placeholder: "House no., area, city",
+                                                                        autoComplete: "street-address",
+                                                                        maxLength: 160
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                                        lineNumber: 373,
+                                                                        lineNumber: 565,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                                lineNumber: 371,
+                                                                lineNumber: 561,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 362,
+                                                        lineNumber: 529,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 358,
+                                                lineNumber: 523,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "rounded-lg border border-[#ffb22d]/35 bg-[#fff7e3] p-4 text-sm font-semibold leading-6 text-amber-950",
-                                                children: "SMCIS maintains strict confidentiality of submitted data and uses it only for admission-related communication."
+                                                className: "rounded-2xl border border-[#ffb22d]/35 bg-[#fff7e3] p-4 text-sm font-semibold leading-6 text-amber-950",
+                                                children: "SMCIS maintains confidentiality of submitted data and uses it only for admission-related communication."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 378,
+                                                lineNumber: 579,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 type: "submit",
                                                 disabled: isSubmitting,
-                                                className: "group inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-[#1f276f] via-[#17215e] to-[#0f6b43] px-6 py-4 text-sm font-black uppercase tracking-wide text-white shadow-2xl shadow-[#1f276f]/25 transition hover:-translate-y-1 disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0",
+                                                "aria-busy": isSubmitting,
+                                                className: "group inline-flex w-full items-center justify-center rounded-2xl bg-gradient-to-r from-[#1f276f] via-[#17215e] to-[#0f6b43] px-6 py-4 text-sm font-black uppercase tracking-[0.14em] text-white shadow-2xl shadow-[#1f276f]/25 transition hover:-translate-y-0.5 hover:shadow-[#1f276f]/35 disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0",
                                                 children: [
                                                     isSubmitting ? "Submitting Enquiry..." : "Submit Admission Enquiry",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                         className: "ml-2 h-5 w-5 transition group-hover:translate-x-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/enquiry/page.tsx",
-                                                        lineNumber: 388,
+                                                        lineNumber: 591,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/enquiry/page.tsx",
-                                                lineNumber: 382,
+                                                lineNumber: 584,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/enquiry/page.tsx",
-                                        lineNumber: 291,
+                                        lineNumber: 358,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/enquiry/page.tsx",
-                                lineNumber: 279,
+                                lineNumber: 337,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/enquiry/page.tsx",
-                        lineNumber: 232,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "mt-6 grid gap-4 md:grid-cols-3",
-                        children: [
-                            {
-                                icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$school$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__School$3e$__["School"],
-                                label: "Seth Malook Chand International School"
-                            },
-                            {
-                                icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2d$round$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UsersRound$3e$__["UsersRound"],
-                                label: "Personal guidance from admission team"
-                            },
-                            {
-                                icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"],
-                                label: "Mobile-friendly admission form"
-                            }
-                        ].map((item)=>{
-                            const Icon = item.icon;
-                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-3 rounded-lg border border-white/70 bg-white/80 p-4 text-sm font-black text-[#1f276f] shadow-lg shadow-[#1f276f]/5 backdrop-blur",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                        className: "h-5 w-5 text-[#0f6b43]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/enquiry/page.tsx",
-                                        lineNumber: 403,
-                                        columnNumber: 17
-                                    }, this),
-                                    " ",
-                                    item.label
-                                ]
-                            }, item.label, true, {
-                                fileName: "[project]/app/enquiry/page.tsx",
-                                lineNumber: 402,
-                                columnNumber: 15
-                            }, this);
-                        })
-                    }, void 0, false, {
-                        fileName: "[project]/app/enquiry/page.tsx",
-                        lineNumber: 394,
+                        lineNumber: 261,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/enquiry/page.tsx",
-                lineNumber: 199,
+                lineNumber: 213,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/enquiry/page.tsx",
-        lineNumber: 194,
+        lineNumber: 208,
         columnNumber: 5
     }, this);
 }

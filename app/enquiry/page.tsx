@@ -6,16 +6,13 @@ import Swal from "sweetalert2";
 import {
   ArrowRight,
   CalendarCheck2,
-  CheckCircle2,
   ClipboardCheck,
   GraduationCap,
   Mail,
   MapPin,
   Phone,
-  School,
   ShieldCheck,
   Sparkles,
-  UsersRound,
   UserRound,
 } from "lucide-react";
 
@@ -38,6 +35,8 @@ type EnquiryFormKey = keyof EnquiryForm;
 const API_BASE_URL = (
   process.env.NEXT_PUBLIC_API_URL || "https://api-smcis.edubridgeerp.in"
 ).replace(/\/$/, "");
+
+const SESSION_LABEL = "2026-27";
 
 const initialForm: EnquiryForm = {
   student_name: "",
@@ -69,7 +68,13 @@ const classOptions = [
 ];
 
 const inputClass =
-  "w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-900 outline-none shadow-sm transition placeholder:text-slate-400 focus:border-[#1f276f] focus:ring-4 focus:ring-[#1f276f]/10";
+  "w-full rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-900 outline-none shadow-sm transition placeholder:text-slate-400 hover:border-slate-300 focus:border-[#1f276f] focus:ring-4 focus:ring-[#1f276f]/10";
+
+const labelClass =
+  "mb-2 block text-[11px] font-black uppercase tracking-[0.16em] text-slate-600";
+
+const sectionTitleClass =
+  "mb-4 flex items-center gap-2 text-xs font-black uppercase tracking-[0.2em] text-[#1f276f]";
 
 export default function EnquiryPage() {
   const [formData, setFormData] = useState<EnquiryForm>(initialForm);
@@ -95,7 +100,10 @@ export default function EnquiryPage() {
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
+    if (isSubmitting) return;
+
     const digitsOnly = formData.phone.replace(/\D/g, "");
+    const email = formData.email.trim();
 
     if (!formData.student_name.trim()) {
       await Swal.fire("Student Name Required", "Please enter the student name.", "warning");
@@ -117,6 +125,11 @@ export default function EnquiryPage() {
       return;
     }
 
+    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      await Swal.fire("Invalid Email", "Please enter a valid email address.", "warning");
+      return;
+    }
+
     if (!formData.class_interested) {
       await Swal.fire("Class Required", "Please select admission class.", "warning");
       return;
@@ -125,6 +138,7 @@ export default function EnquiryPage() {
     setIsSubmitting(true);
 
     const parentName = formData.parent_name.trim();
+
     const payload = {
       student_name: formData.student_name.trim(),
       parent_name: parentName,
@@ -132,7 +146,7 @@ export default function EnquiryPage() {
       father_name: parentName,
       mother_name: "",
       phone: `+91${digitsOnly}`,
-      email: formData.email.trim(),
+      email,
       city: formData.city.trim(),
       address: formData.address.trim() || formData.city.trim(),
       class_interested: formData.class_interested,
@@ -141,7 +155,7 @@ export default function EnquiryPage() {
       previous_school: formData.previous_school.trim(),
       remarks: formData.remarks.trim(),
       source: "SMCIS Admission Form",
-      session: "2026-27",
+      session: SESSION_LABEL,
     };
 
     try {
@@ -178,8 +192,8 @@ export default function EnquiryPage() {
       );
 
       setFormData(initialForm);
-    } catch (error) {
-      console.error("Error submitting enquiry:", error);
+      setPhoneError("");
+    } catch {
       await Swal.fire(
         "Unable to Connect",
         "Please check your internet connection and try again.",
@@ -191,151 +205,283 @@ export default function EnquiryPage() {
   };
 
   return (
-    <main className="relative min-h-screen overflow-hidden bg-[#f5f7f2] text-slate-950">
-      <div className="absolute inset-0 -z-10 bg-[linear-gradient(135deg,#fff7e3_0%,#f5f7f2_34%,#eef7f1_62%,#edf2ff_100%)]" />
-      <div className="absolute inset-0 -z-10 opacity-[0.07] [background-image:linear-gradient(#1f276f_1px,transparent_1px),linear-gradient(90deg,#1f276f_1px,transparent_1px)] [background-size:36px_36px]" />
-      <div className="absolute inset-x-0 top-0 -z-10 h-2 bg-gradient-to-r from-[#1f276f] via-[#0f6b43] to-[#ffb22d]" />
+    <main className="relative min-h-screen overflow-hidden bg-[#f6f7f2] text-slate-950">
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,#fff1c8_0,transparent_34%),radial-gradient(circle_at_top_right,#dff6ea_0,transparent_32%),linear-gradient(135deg,#fffaf0_0%,#f6f7f2_45%,#eef4ff_100%)]" />
+      <div className="absolute inset-0 -z-10 opacity-[0.055] [background-image:linear-gradient(#1f276f_1px,transparent_1px),linear-gradient(90deg,#1f276f_1px,transparent_1px)] [background-size:38px_38px]" />
+      <div className="absolute inset-x-0 top-0 z-0 h-1.5 bg-gradient-to-r from-[#1f276f] via-[#0f6b43] to-[#ffb22d]" />
 
       <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <header className="mb-6 rounded-lg border border-white/80 bg-white/90 px-4 py-4 shadow-xl shadow-slate-900/5 backdrop-blur sm:px-6">
-          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <header className="mb-6 rounded-3xl border border-white/80 bg-white/90 px-4 py-4 shadow-xl shadow-slate-900/5 backdrop-blur sm:px-6">
+          <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex items-center gap-4">
-              <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-lg border border-[#ffb22d]/35 bg-white p-1 shadow-md">
-                <Image src="/images/smcis/logo.png" alt="SMCIS Logo" width={64} height={64} className="h-full w-full object-contain" priority />
+              <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-[#ffb22d]/35 bg-white p-1.5 shadow-md sm:h-20 sm:w-20">
+                <Image
+                  src="/images/smcis/logo.png"
+                  alt="Seth Malook Chand International School logo"
+                  width={80}
+                  height={80}
+                  className="h-full w-full object-contain"
+                  priority
+                />
               </span>
+
               <div className="leading-tight">
-                <p className="text-xs font-black uppercase tracking-[0.22em] text-[#1f276f]">SMCIS</p>
-                <h1 className="mt-1 text-lg font-black text-slate-950 sm:text-2xl">
+                <p className="text-xs font-black uppercase tracking-[0.24em] text-[#0f6b43]">
+                  Admissions Open
+                </p>
+                <h1 className="mt-1 text-xl font-black text-[#1f276f] sm:text-3xl">
                   Seth Malook Chand International School
                 </h1>
-                <p className="mt-1 text-xs font-bold text-slate-500 sm:text-sm">
-                  Admission Form for Session 2026-27
+                <p className="mt-1 text-sm font-bold text-slate-500">
+                  Admission Enquiry for Session {SESSION_LABEL}
                 </p>
               </div>
             </div>
 
-            <div className="grid grid-cols-3 overflow-hidden rounded-lg border border-slate-200 bg-slate-50 text-center shadow-sm sm:min-w-80">
+            <div className="grid overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 text-center shadow-sm sm:grid-cols-3 lg:min-w-[360px]">
               {[
                 ["CBSE", "Affiliated"],
-                ["2026-27", "Session"],
+                [SESSION_LABEL, "Session"],
                 ["Sasni", "Campus"],
               ].map(([value, label]) => (
-                <div key={label} className="border-r border-slate-200 px-3 py-2 last:border-r-0">
-                  <p className="text-sm font-black text-[#1f276f]">{value}</p>
-                  <p className="mt-0.5 text-[10px] font-bold uppercase tracking-wide text-slate-500">{label}</p>
+                <div
+                  key={label}
+                  className="border-b border-slate-200 px-4 py-3 last:border-b-0 sm:border-b-0 sm:border-r sm:last:border-r-0"
+                >
+                  <p className="text-base font-black text-[#1f276f]">{value}</p>
+                  <p className="mt-1 text-[10px] font-black uppercase tracking-[0.16em] text-slate-500">
+                    {label}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
         </header>
 
-        <section className="grid gap-6 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
+        <section className="grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
           <aside className="lg:sticky lg:top-6">
-            <div className="overflow-hidden rounded-lg border border-white/70 bg-[#1f276f] text-white shadow-2xl shadow-[#1f276f]/20">
-              <div className="relative h-72 overflow-hidden">
-                <Image src="/images/smcis/primary.webp" alt="SMCIS admission enquiry" fill sizes="(min-width: 1024px) 36vw, 100vw" className="object-cover" priority />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#11164b] via-[#11164b]/45 to-transparent" />
-                <div className="absolute left-5 top-5 flex h-20 w-20 items-center justify-center rounded-lg border border-white/60 bg-white/90 p-2 shadow-xl">
-                  <Image src="/images/smcis/logo.png" alt="SMCIS Logo" width={80} height={80} className="h-full w-full object-contain" />
+            <div className="overflow-hidden rounded-3xl border border-white/70 bg-[#1f276f] text-white shadow-2xl shadow-[#1f276f]/20">
+              <div className="relative h-[360px] overflow-hidden sm:h-[430px] lg:h-[520px]">
+                <Image
+                  src="/images/smcis/primary.webp"
+                  alt="SMCIS campus and students"
+                  fill
+                  sizes="(min-width: 1024px) 38vw, 100vw"
+                  className="object-cover"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#11164b] via-[#11164b]/55 to-[#11164b]/10" />
+
+                <div className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/15 px-4 py-2 text-xs font-black uppercase tracking-[0.18em] text-white shadow-lg backdrop-blur-md">
+                  <Sparkles className="h-4 w-4 text-[#ffb22d]" />
+                  Admissions {SESSION_LABEL}
                 </div>
-                <div className="absolute bottom-5 left-5 right-5">
-                  <div className="mb-3 inline-flex items-center gap-2 rounded-lg bg-white/15 px-3 py-1.5 text-xs font-black uppercase tracking-[0.18em] backdrop-blur">
-                    <Sparkles className="h-4 w-4 text-[#ffb22d]" /> Admissions Open
-                  </div>
-                  <h2 className="text-3xl font-black leading-tight">Begin your child&apos;s SMCIS journey</h2>
+
+                <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-7">
+                  <h2 className="max-w-md text-3xl font-black leading-tight sm:text-5xl">
+                    Begin your child&apos;s SMCIS journey
+                  </h2>
+                  <p className="mt-4 max-w-md text-sm font-medium leading-7 text-blue-50 sm:text-base">
+                    Submit the enquiry form and the admissions team will guide you with class availability,
+                    fee details and next steps.
+                  </p>
                 </div>
               </div>
 
-              <div className="space-y-5 p-6">
-                <p className="text-sm leading-7 text-blue-100">
-                  Share parent and student details with the admissions team for class availability, fee guidance and next steps.
-                </p>
-
+              <div className="space-y-4 p-5 sm:p-6">
                 <div className="grid gap-3">
                   {[
                     { icon: GraduationCap, label: "CBSE affiliated learning environment" },
                     { icon: ShieldCheck, label: "Safe, caring and value-driven campus" },
-                    { icon: CalendarCheck2, label: "Admissions open for 2026-27" },
+                    { icon: CalendarCheck2, label: "Admissions open for session 2026-27" },
                   ].map((item) => {
                     const Icon = item.icon;
                     return (
-                      <div key={item.label} className="flex items-center gap-3 rounded-lg bg-white/10 p-3 ring-1 ring-white/10">
-                        <Icon className="h-5 w-5 text-[#ffb22d]" />
+                      <div
+                        key={item.label}
+                        className="flex items-center gap-3 rounded-2xl bg-white/10 p-3.5 ring-1 ring-white/10"
+                      >
+                        <Icon className="h-5 w-5 shrink-0 text-[#ffb22d]" />
                         <span className="text-sm font-bold text-blue-50">{item.label}</span>
                       </div>
                     );
                   })}
                 </div>
 
-                <div className="rounded-lg bg-white/10 p-4 ring-1 ring-white/10">
-                  <div className="flex items-center gap-3 text-sm font-bold text-blue-50"><Phone className="h-4 w-4 text-[#ffb22d]" /> 7055000524 / 7055000525</div>
-                  <div className="mt-3 flex items-center gap-3 text-sm font-bold text-blue-50"><Mail className="h-4 w-4 text-[#ffb22d]" /> admissions@smcis.in</div>
-                  <div className="mt-3 flex items-start gap-3 text-sm font-bold text-blue-50"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#ffb22d]" /> OPP. Manglayatan Mandir, Aligarh-Agra Road, Sasni (U.P.) - 204216</div>
+                <div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/10">
+                  <a
+                    href="tel:+917055000524"
+                    className="flex items-center gap-3 text-sm font-bold text-blue-50 transition hover:text-white"
+                  >
+                    <Phone className="h-4 w-4 shrink-0 text-[#ffb22d]" />
+                    7055000524 / 7055000525
+                  </a>
+
+                  <a
+                    href="mailto:admissions@smcis.in"
+                    className="mt-3 flex items-center gap-3 text-sm font-bold text-blue-50 transition hover:text-white"
+                  >
+                    <Mail className="h-4 w-4 shrink-0 text-[#ffb22d]" />
+                    admissions@smcis.in
+                  </a>
+
+                  <div className="mt-3 flex items-start gap-3 text-sm font-bold leading-6 text-blue-50">
+                    <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#ffb22d]" />
+                    OPP. Manglayatan Mandir, Aligarh-Agra Road, Sasni (U.P.) - 204216
+                  </div>
                 </div>
               </div>
             </div>
           </aside>
 
-          <div className="rounded-lg border border-white/80 bg-white/95 p-4 shadow-2xl shadow-[#1f276f]/10 backdrop-blur-xl sm:p-6 lg:p-8">
-            <div className="mb-6 flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
+          <div className="rounded-3xl border border-white/80 bg-white/95 p-4 shadow-2xl shadow-[#1f276f]/10 backdrop-blur-xl sm:p-6 lg:p-8">
+            <div className="mb-7 flex flex-col justify-between gap-4 xl:flex-row xl:items-start">
               <div>
-                <p className="text-xs font-black uppercase tracking-[0.28em] text-[#0f6b43]">Admission Enquiry Form</p>
-                <h2 className="mt-2 text-2xl font-black text-[#1f276f] sm:text-4xl">Parent & Student Details</h2>
-                <p className="mt-2 text-sm font-medium text-slate-600">Fields marked with <span className="text-red-500">*</span> are required.</p>
+                <p className="text-xs font-black uppercase tracking-[0.28em] text-[#0f6b43]">
+                  Admission Enquiry Form
+                </p>
+                <h2 className="mt-2 text-3xl font-black text-[#1f276f] sm:text-4xl">
+                  Parent & Student Details
+                </h2>
+                <p className="mt-2 text-sm font-semibold text-slate-600">
+                  Please fill the required details carefully. Fields marked with{" "}
+                  <span className="text-red-500">*</span> are mandatory.
+                </p>
               </div>
-              <div className="flex items-center gap-2 rounded-lg bg-[#fff7e3] px-4 py-3 text-sm font-black text-[#1f276f] ring-1 ring-[#ffb22d]/25">
-                <ClipboardCheck className="h-5 w-5 text-[#0f6b43]" /> Secure Admission Record
+
+              <div className="inline-flex items-center gap-2 rounded-2xl bg-[#fff7e3] px-4 py-3 text-sm font-black text-[#1f276f] ring-1 ring-[#ffb22d]/25">
+                <ClipboardCheck className="h-5 w-5 text-[#0f6b43]" />
+                Secure Admission Record
               </div>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-7">
-              <section>
-                <div className="mb-3 flex items-center gap-2 text-sm font-black uppercase tracking-[0.18em] text-[#1f276f]">
-                  <UserRound className="h-4 w-4" /> Basic Details
+            <form onSubmit={handleSubmit} className="space-y-8">
+              <section className="rounded-3xl border border-slate-100 bg-slate-50/60 p-4 sm:p-5">
+                <div className={sectionTitleClass}>
+                  <UserRound className="h-4 w-4" />
+                  Basic Details
                 </div>
+
                 <div className="grid gap-4 md:grid-cols-2">
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Student Name <span className="text-red-500">*</span></label>
-                    <input name="student_name" value={formData.student_name} onChange={handleChange} className={inputClass} placeholder="Enter student name" />
+                    <label htmlFor="student_name" className={labelClass}>
+                      Student Name <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      id="student_name"
+                      name="student_name"
+                      value={formData.student_name}
+                      onChange={handleChange}
+                      className={inputClass}
+                      placeholder="Enter student name"
+                      autoComplete="name"
+                      maxLength={80}
+                      required
+                    />
                   </div>
 
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Parent / Guardian Name <span className="text-red-500">*</span></label>
-                    <input name="parent_name" value={formData.parent_name} onChange={handleChange} className={inputClass} placeholder="Enter parent name" />
+                    <label htmlFor="parent_name" className={labelClass}>
+                      Parent / Guardian Name <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      id="parent_name"
+                      name="parent_name"
+                      value={formData.parent_name}
+                      onChange={handleChange}
+                      className={inputClass}
+                      placeholder="Enter parent name"
+                      autoComplete="name"
+                      maxLength={80}
+                      required
+                    />
                   </div>
 
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Parent Phone No. <span className="text-red-500">*</span></label>
-                    <div className="flex overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition focus-within:border-[#1f276f] focus-within:ring-4 focus-within:ring-[#1f276f]/10">
-                      <span className="flex items-center border-r border-slate-200 bg-slate-50 px-4 text-sm font-black text-slate-500">+91</span>
-                      <input name="phone" value={formData.phone} onChange={handleChange} className="w-full bg-transparent px-4 py-3 text-sm font-semibold text-slate-900 outline-none placeholder:text-slate-400" placeholder="9876543210" inputMode="numeric" />
+                    <label htmlFor="phone" className={labelClass}>
+                      Parent Phone No. <span className="text-red-500">*</span>
+                    </label>
+                    <div className="flex overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:border-slate-300 focus-within:border-[#1f276f] focus-within:ring-4 focus-within:ring-[#1f276f]/10">
+                      <span className="flex items-center border-r border-slate-200 bg-slate-50 px-4 text-sm font-black text-slate-500">
+                        +91
+                      </span>
+                      <input
+                        id="phone"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        className="w-full bg-transparent px-4 py-3.5 text-sm font-semibold text-slate-900 outline-none placeholder:text-slate-400"
+                        placeholder="9876543210"
+                        inputMode="numeric"
+                        autoComplete="tel"
+                        aria-invalid={Boolean(phoneError)}
+                        maxLength={10}
+                        required
+                      />
                     </div>
-                    {phoneError ? <p className="mt-1.5 text-xs font-bold text-red-500">{phoneError}</p> : null}
+                    {phoneError ? (
+                      <p className="mt-2 text-xs font-bold text-red-500">{phoneError}</p>
+                    ) : null}
                   </div>
 
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Email</label>
-                    <input type="email" name="email" value={formData.email} onChange={handleChange} className={inputClass} placeholder="parent@example.com" />
+                    <label htmlFor="email" className={labelClass}>
+                      Email
+                    </label>
+                    <input
+                      id="email"
+                      type="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      className={inputClass}
+                      placeholder="parent@example.com"
+                      autoComplete="email"
+                      maxLength={100}
+                    />
                   </div>
                 </div>
               </section>
 
-              <section>
-                <div className="mb-3 flex items-center gap-2 text-sm font-black uppercase tracking-[0.18em] text-[#1f276f]">
-                  <GraduationCap className="h-4 w-4" /> Admission Details
+              <section className="rounded-3xl border border-slate-100 bg-white p-4 shadow-sm sm:p-5">
+                <div className={sectionTitleClass}>
+                  <GraduationCap className="h-4 w-4" />
+                  Admission Details
                 </div>
+
                 <div className="grid gap-4 md:grid-cols-2">
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Admission into Grade <span className="text-red-500">*</span></label>
-                    <select name="class_interested" value={formData.class_interested} onChange={handleChange} className={inputClass}>
+                    <label htmlFor="class_interested" className={labelClass}>
+                      Admission into Grade <span className="text-red-500">*</span>
+                    </label>
+                    <select
+                      id="class_interested"
+                      name="class_interested"
+                      value={formData.class_interested}
+                      onChange={handleChange}
+                      className={inputClass}
+                      required
+                    >
                       <option value="">Select class</option>
-                      {classOptions.map((className) => <option key={className} value={className}>{className}</option>)}
+                      {classOptions.map((className) => (
+                        <option key={className} value={className}>
+                          {className}
+                        </option>
+                      ))}
                     </select>
                   </div>
 
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Gender</label>
-                    <select name="gender" value={formData.gender} onChange={handleChange} className={inputClass}>
+                    <label htmlFor="gender" className={labelClass}>
+                      Gender
+                    </label>
+                    <select
+                      id="gender"
+                      name="gender"
+                      value={formData.gender}
+                      onChange={handleChange}
+                      className={inputClass}
+                    >
                       <option value="">Select gender</option>
                       <option value="Male">Male</option>
                       <option value="Female">Female</option>
@@ -344,66 +490,108 @@ export default function EnquiryPage() {
                   </div>
 
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Date of Birth</label>
-                    <input type="date" name="dob" value={formData.dob} onChange={handleChange} className={inputClass} />
+                    <label htmlFor="dob" className={labelClass}>
+                      Date of Birth
+                    </label>
+                    <input
+                      id="dob"
+                      type="date"
+                      name="dob"
+                      value={formData.dob}
+                      onChange={handleChange}
+                      className={inputClass}
+                    />
                   </div>
 
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Previous School</label>
-                    <input name="previous_school" value={formData.previous_school} onChange={handleChange} className={inputClass} placeholder="Previous school name" />
+                    <label htmlFor="previous_school" className={labelClass}>
+                      Previous School
+                    </label>
+                    <input
+                      id="previous_school"
+                      name="previous_school"
+                      value={formData.previous_school}
+                      onChange={handleChange}
+                      className={inputClass}
+                      placeholder="Previous school name"
+                      maxLength={120}
+                    />
                   </div>
                 </div>
               </section>
 
-              <section>
-                <div className="mb-3 flex items-center gap-2 text-sm font-black uppercase tracking-[0.18em] text-[#1f276f]">
-                  <MapPin className="h-4 w-4" /> Address Details
+              <section className="rounded-3xl border border-slate-100 bg-slate-50/60 p-4 sm:p-5">
+                <div className={sectionTitleClass}>
+                  <MapPin className="h-4 w-4" />
+                  Address Details
                 </div>
+
                 <div className="grid gap-4 md:grid-cols-2">
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">City</label>
-                    <input name="city" value={formData.city} onChange={handleChange} className={inputClass} placeholder="City / Village" />
+                    <label htmlFor="city" className={labelClass}>
+                      City
+                    </label>
+                    <input
+                      id="city"
+                      name="city"
+                      value={formData.city}
+                      onChange={handleChange}
+                      className={inputClass}
+                      placeholder="City / Village"
+                      autoComplete="address-level2"
+                      maxLength={80}
+                    />
                   </div>
+
                   <div className="md:row-span-2">
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Remarks</label>
-                    <textarea name="remarks" value={formData.remarks} onChange={handleChange} className={`${inputClass} min-h-28 resize-none`} placeholder="Any message for admission team" />
+                    <label htmlFor="remarks" className={labelClass}>
+                      Remarks
+                    </label>
+                    <textarea
+                      id="remarks"
+                      name="remarks"
+                      value={formData.remarks}
+                      onChange={handleChange}
+                      className={`${inputClass} min-h-32 resize-none leading-6`}
+                      placeholder="Any message for admission team"
+                      maxLength={500}
+                    />
                   </div>
+
                   <div>
-                    <label className="mb-1.5 block text-xs font-black uppercase tracking-wide text-slate-600">Full Address</label>
-                    <input name="address" value={formData.address} onChange={handleChange} className={inputClass} placeholder="House no., area, city" />
+                    <label htmlFor="address" className={labelClass}>
+                      Full Address
+                    </label>
+                    <input
+                      id="address"
+                      name="address"
+                      value={formData.address}
+                      onChange={handleChange}
+                      className={inputClass}
+                      placeholder="House no., area, city"
+                      autoComplete="street-address"
+                      maxLength={160}
+                    />
                   </div>
                 </div>
               </section>
 
-              <div className="rounded-lg border border-[#ffb22d]/35 bg-[#fff7e3] p-4 text-sm font-semibold leading-6 text-amber-950">
-                SMCIS maintains strict confidentiality of submitted data and uses it only for admission-related communication.
+              <div className="rounded-2xl border border-[#ffb22d]/35 bg-[#fff7e3] p-4 text-sm font-semibold leading-6 text-amber-950">
+                SMCIS maintains confidentiality of submitted data and uses it only for
+                admission-related communication.
               </div>
 
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="group inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-[#1f276f] via-[#17215e] to-[#0f6b43] px-6 py-4 text-sm font-black uppercase tracking-wide text-white shadow-2xl shadow-[#1f276f]/25 transition hover:-translate-y-1 disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0"
+                aria-busy={isSubmitting}
+                className="group inline-flex w-full items-center justify-center rounded-2xl bg-gradient-to-r from-[#1f276f] via-[#17215e] to-[#0f6b43] px-6 py-4 text-sm font-black uppercase tracking-[0.14em] text-white shadow-2xl shadow-[#1f276f]/25 transition hover:-translate-y-0.5 hover:shadow-[#1f276f]/35 disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0"
               >
                 {isSubmitting ? "Submitting Enquiry..." : "Submit Admission Enquiry"}
                 <ArrowRight className="ml-2 h-5 w-5 transition group-hover:translate-x-1" />
               </button>
             </form>
           </div>
-        </section>
-
-        <section className="mt-6 grid gap-4 md:grid-cols-3">
-          {[
-            { icon: School, label: "Seth Malook Chand International School" },
-            { icon: UsersRound, label: "Personal guidance from admission team" },
-            { icon: CheckCircle2, label: "Mobile-friendly admission form" },
-          ].map((item) => {
-            const Icon = item.icon;
-            return (
-              <div key={item.label} className="flex items-center gap-3 rounded-lg border border-white/70 bg-white/80 p-4 text-sm font-black text-[#1f276f] shadow-lg shadow-[#1f276f]/5 backdrop-blur">
-                <Icon className="h-5 w-5 text-[#0f6b43]" /> {item.label}
-              </div>
-            );
-          })}
         </section>
       </div>
     </main>
