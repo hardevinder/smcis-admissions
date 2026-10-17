@@ -1,38 +1,42 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const shareTitle = "Admissions Open 2027–28 | Seth Malook Chand International School";
+const shareDescription =
+  "Begin your child’s SMCIS journey in Sasni. Enquire for 2027–28 admissions, class availability and fee details. Call 7055000524 or 7055000525.";
+const shareImage = "/images/smcis/admissions-2027-28-og.png";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://smcis-admissions.edubridgeerp.in"),
-  title: "SMCIS Admission Form 2027-28 | Seth Malook Chand International School",
-  description:
-    "Admission Form 2027-28 for Seth Malook Chand International School. Submit parent and student details for admission guidance.",
+  title: shareTitle,
+  description: shareDescription,
+  alternates: { canonical: "/enquiry" },
   icons: {
     icon: "/images/smcis/logo.png",
     apple: "/images/smcis/logo.png",
   },
   openGraph: {
-    title: "SMCIS Admission Form 2027-28",
-    description:
-      "Fill the admission form for Seth Malook Chand International School.",
-    url: "https://smcis-admissions.edubridgeerp.in",
+    title: shareTitle,
+    description: shareDescription,
+    url: "/enquiry",
     siteName: "Seth Malook Chand International School",
     type: "website",
     locale: "en_IN",
     images: [
       {
-        url: "/images/smcis/logo.png",
-        width: 1536,
-        height: 1024,
-        alt: "SMCIS Logo",
+        url: shareImage,
+        width: 1200,
+        height: 630,
+        type: "image/png",
+        alt: "Seth Malook Chand International School logo — Admissions open 2027–28, Sasni. Call 7055000524 or 7055000525.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "SMCIS Admission Form 2027-28",
-    description:
-      "Submit parent and student details for admission guidance at SMCIS.",
-    images: ["/images/smcis/logo.png"],
+    title: shareTitle,
+    description: shareDescription,
+    images: [{ url: shareImage, alt: "SMCIS — Admissions open for 2027–28" }],
   },
   keywords: [
     "SMCIS",
