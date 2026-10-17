@@ -36,7 +36,7 @@ const API_BASE_URL = (
   process.env.NEXT_PUBLIC_API_URL || "https://api-smcis.edubridgeerp.in"
 ).replace(/\/$/, "");
 
-const SESSION_LABEL = "2026-27";
+const SESSION_LABEL = "2027-28";
 
 const initialForm: EnquiryForm = {
   student_name: "",
@@ -68,13 +68,13 @@ const classOptions = [
 ];
 
 const inputClass =
-  "w-full rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-900 outline-none shadow-sm transition placeholder:text-slate-400 hover:border-slate-300 focus:border-[#1f276f] focus:ring-4 focus:ring-[#1f276f]/10";
+  "min-h-12 min-w-0 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-base font-medium text-slate-900 outline-none shadow-sm transition placeholder:text-slate-400 hover:border-slate-300 focus:border-[#1f276f] focus:ring-4 focus:ring-[#1f276f]/10";
 
 const labelClass =
-  "mb-2 block text-[11px] font-black uppercase tracking-[0.16em] text-slate-600";
+  "mb-2 block text-sm font-semibold text-slate-700";
 
 const sectionTitleClass =
-  "mb-4 flex items-center gap-2 text-xs font-black uppercase tracking-[0.2em] text-[#1f276f]";
+  "mb-5 flex items-center gap-2.5 text-base font-bold text-[#1f276f]";
 
 export default function EnquiryPage() {
   const [formData, setFormData] = useState<EnquiryForm>(initialForm);
@@ -205,15 +205,15 @@ export default function EnquiryPage() {
   };
 
   return (
-    <main className="relative min-h-screen overflow-hidden bg-[#f6f7f2] text-slate-950">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,#fff1c8_0,transparent_34%),radial-gradient(circle_at_top_right,#dff6ea_0,transparent_32%),linear-gradient(135deg,#fffaf0_0%,#f6f7f2_45%,#eef4ff_100%)]" />
+    <main className="relative isolate min-h-screen bg-[#f5f7fb] text-slate-950">
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_left,#e4e9f8_0,transparent_50%),radial-gradient(ellipse_at_bottom_right,#edf3ed_0,transparent_40%)]" />
       <div className="absolute inset-0 -z-10 opacity-[0.055] [background-image:linear-gradient(#1f276f_1px,transparent_1px),linear-gradient(90deg,#1f276f_1px,transparent_1px)] [background-size:38px_38px]" />
       <div className="absolute inset-x-0 top-0 z-0 h-1.5 bg-gradient-to-r from-[#1f276f] via-[#0f6b43] to-[#ffb22d]" />
 
-      <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <header className="mb-5 rounded-3xl border border-white/80 bg-white/90 px-4 py-4 shadow-xl shadow-slate-900/5 backdrop-blur sm:px-6">
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+        <header className="mb-6 border-b border-[#1f276f]/10 pb-6 sm:mb-8">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 sm:gap-4">
               <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-[#ffb22d]/35 bg-white p-1.5 shadow-md sm:h-20 sm:w-20">
                 <Image
                   src="/images/smcis/logo.png"
@@ -226,13 +226,13 @@ export default function EnquiryPage() {
               </span>
 
               <div className="leading-tight">
-                <p className="text-xs font-black uppercase tracking-[0.24em] text-[#0f6b43]">
+                <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#0f6b43]">
                   Admissions Open
                 </p>
-                <h1 className="mt-1 text-2xl font-black leading-tight text-[#1f276f] sm:text-3xl">
+                <h1 className="mt-1 max-w-xl text-lg font-bold leading-snug text-[#1f276f] sm:text-2xl">
                   Seth Malook Chand International School
                 </h1>
-                <p className="mt-1 text-sm font-bold text-slate-500">
+                <p className="mt-1 text-xs font-medium text-slate-500 sm:text-sm">
                   Admission Enquiry for Session {SESSION_LABEL}
                 </p>
 
@@ -240,14 +240,17 @@ export default function EnquiryPage() {
               </div>
             </div>
 
-
+            <a href="tel:+917055000524" className="inline-flex min-h-11 items-center justify-center gap-2 self-start rounded-full border border-[#1f276f]/15 bg-white px-5 py-2.5 text-sm font-semibold text-[#1f276f] transition hover:bg-indigo-50 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1f276f]">
+              <Phone className="h-4 w-4" aria-hidden="true" />
+              Speak to admissions
+            </a>
           </div>
         </header>
 
-        <section className="grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
+        <section className="grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:gap-8 lg:items-start">
           <aside className="lg:sticky lg:top-6">
             <div className="overflow-hidden rounded-3xl border border-white/70 bg-[#1f276f] text-white shadow-2xl shadow-[#1f276f]/20">
-              <div className="relative h-[360px] overflow-hidden sm:h-[430px] lg:h-[520px]">
+              <div className="relative min-h-[340px] overflow-hidden sm:min-h-[380px] lg:min-h-[490px]">
                 <Image
                   src="/images/smcis/primary.webp"
                   alt="SMCIS campus and students"
@@ -263,23 +266,26 @@ export default function EnquiryPage() {
                   Admissions {SESSION_LABEL}
                 </div>
 
-                <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-7">
-                  <h2 className="max-w-md text-3xl font-black leading-tight sm:text-5xl">
+                <div className="relative px-5 pb-6 pt-24 sm:px-7 sm:pb-7 sm:pt-32 lg:pt-48">
+                  <h2 className="max-w-md text-3xl font-bold leading-[1.12] tracking-tight sm:text-4xl lg:text-5xl">
                     Begin your child&apos;s SMCIS journey
                   </h2>
-                  <p className="mt-4 max-w-md text-sm font-medium leading-7 text-blue-50 sm:text-base">
+                  <p className="mt-3 max-w-md text-sm leading-6 text-blue-50 sm:text-base sm:leading-7">
                     Submit the enquiry form and the admissions team will guide you with class availability,
                     fee details and next steps.
                   </p>
+                  <a href="#enquiry-form" className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-full bg-[#ffcf70] px-5 py-2.5 text-sm font-bold text-[#11164b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white lg:hidden">
+                    Enquire for {SESSION_LABEL} <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  </a>
                 </div>
               </div>
 
-              <div className="space-y-4 p-5 sm:p-6">
+              <div className="hidden space-y-4 lg:block p-5 sm:p-6">
                 <div className="grid gap-3">
                   {[
                     { icon: GraduationCap, label: "CBSE affiliated learning environment" },
                     { icon: ShieldCheck, label: "Safe, caring and value-driven campus" },
-                    { icon: CalendarCheck2, label: "Admissions open for session 2026-27" },
+                    { icon: CalendarCheck2, label: `Admissions open for session ${SESSION_LABEL}` },
                   ].map((item) => {
                     const Icon = item.icon;
                     return (
@@ -320,35 +326,35 @@ export default function EnquiryPage() {
             </div>
           </aside>
 
-          <div className="rounded-3xl border border-white/80 bg-white/95 p-4 shadow-2xl shadow-[#1f276f]/10 backdrop-blur-xl sm:p-6 lg:p-8">
-            <div className="mb-7 flex flex-col justify-between gap-4 xl:flex-row xl:items-start">
+          <div id="enquiry-form" className="min-w-0 scroll-mt-6 rounded-3xl border border-slate-200/80 bg-white p-5 shadow-xl shadow-[#1f276f]/5 sm:p-7 lg:p-8">
+            <div className="mb-7 flex flex-col-reverse justify-between gap-4">
               <div>
-                <p className="text-xs font-black uppercase tracking-[0.28em] text-[#0f6b43]">
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#0f6b43]">
                   Admission Enquiry Form
                 </p>
-                <h2 className="mt-2 text-3xl font-black text-[#1f276f] sm:text-4xl">
-                  Parent & Student Details
+                <h2 className="mt-2 text-2xl font-bold tracking-tight text-[#1f276f] sm:text-3xl">
+                  Let’s start a conversation
                 </h2>
-                <p className="mt-2 text-sm font-semibold text-slate-600">
+                <p className="mt-3 text-sm leading-6 text-slate-500">
                   Please fill the required details carefully. Fields marked with{" "}
                   <span className="text-red-500">*</span> are mandatory.
                 </p>
               </div>
 
-              <div className="inline-flex items-center gap-2 rounded-2xl bg-[#fff7e3] px-4 py-3 text-sm font-black text-[#1f276f] ring-1 ring-[#ffb22d]/25">
+              <div className="inline-flex items-center gap-2 self-start rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-800">
                 <ClipboardCheck className="h-5 w-5 text-[#0f6b43]" />
-                Secure Admission Record
+                Session {SESSION_LABEL} · Admissions open
               </div>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-8">
-              <section className="rounded-3xl border border-slate-100 bg-slate-50/60 p-4 sm:p-5">
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <section className="border-t border-slate-100 pt-6">
                 <div className={sectionTitleClass}>
                   <UserRound className="h-4 w-4" />
                   Basic Details
                 </div>
 
-                <div className="grid gap-4 md:grid-cols-2">
+                <div className="grid min-w-0 gap-5 sm:grid-cols-2">
                   <div>
                     <label htmlFor="student_name" className={labelClass}>
                       Student Name <span className="text-red-500">*</span>
@@ -360,7 +366,7 @@ export default function EnquiryPage() {
                       onChange={handleChange}
                       className={inputClass}
                       placeholder="Enter student name"
-                      autoComplete="name"
+                      autoComplete="section-student name"
                       maxLength={80}
                       required
                     />
@@ -377,7 +383,7 @@ export default function EnquiryPage() {
                       onChange={handleChange}
                       className={inputClass}
                       placeholder="Enter parent name"
-                      autoComplete="name"
+                      autoComplete="section-parent name"
                       maxLength={80}
                       required
                     />
@@ -396,17 +402,20 @@ export default function EnquiryPage() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        className="w-full bg-transparent px-4 py-3.5 text-sm font-semibold text-slate-900 outline-none placeholder:text-slate-400"
+                        className="min-w-0 w-full bg-transparent px-4 py-3 text-base font-medium text-slate-900 outline-none placeholder:text-slate-400"
                         placeholder="9876543210"
                         inputMode="numeric"
                         autoComplete="tel"
                         aria-invalid={Boolean(phoneError)}
+                        aria-describedby={phoneError ? "phone-error" : undefined}
+                        type="tel"
+                        minLength={10}
                         maxLength={10}
                         required
                       />
                     </div>
                     {phoneError ? (
-                      <p className="mt-2 text-xs font-bold text-red-500">{phoneError}</p>
+                      <p id="phone-error" role="alert" className="mt-2 text-xs font-semibold text-red-600">{phoneError}</p>
                     ) : null}
                   </div>
 
@@ -429,13 +438,13 @@ export default function EnquiryPage() {
                 </div>
               </section>
 
-              <section className="rounded-3xl border border-slate-100 bg-white p-4 shadow-sm sm:p-5">
+              <section className="border-t border-slate-100 pt-6">
                 <div className={sectionTitleClass}>
                   <GraduationCap className="h-4 w-4" />
                   Admission Details
                 </div>
 
-                <div className="grid gap-4 md:grid-cols-2">
+                <div className="grid min-w-0 gap-5 sm:grid-cols-2">
                   <div>
                     <label htmlFor="class_interested" className={labelClass}>
                       Admission into Grade <span className="text-red-500">*</span>
@@ -506,13 +515,13 @@ export default function EnquiryPage() {
                 </div>
               </section>
 
-              <section className="rounded-3xl border border-slate-100 bg-slate-50/60 p-4 sm:p-5">
+              <section className="border-t border-slate-100 pt-6">
                 <div className={sectionTitleClass}>
                   <MapPin className="h-4 w-4" />
                   Address Details
                 </div>
 
-                <div className="grid gap-4 md:grid-cols-2">
+                <div className="grid min-w-0 gap-5 sm:grid-cols-2">
                   <div>
                     <label htmlFor="city" className={labelClass}>
                       City
@@ -529,7 +538,7 @@ export default function EnquiryPage() {
                     />
                   </div>
 
-                  <div className="md:row-span-2">
+                  <div className="sm:row-span-2">
                     <label htmlFor="remarks" className={labelClass}>
                       Remarks
                     </label>
@@ -562,7 +571,7 @@ export default function EnquiryPage() {
                 </div>
               </section>
 
-              <div className="rounded-2xl border border-[#ffb22d]/35 bg-[#fff7e3] p-4 text-sm font-semibold leading-6 text-amber-950">
+              <div className="rounded-xl bg-slate-50 p-4 text-xs leading-6 text-slate-500">
                 SMCIS maintains confidentiality of submitted data and uses it only for
                 admission-related communication.
               </div>
@@ -571,7 +580,7 @@ export default function EnquiryPage() {
                 type="submit"
                 disabled={isSubmitting}
                 aria-busy={isSubmitting}
-                className="group inline-flex w-full items-center justify-center rounded-2xl bg-gradient-to-r from-[#1f276f] via-[#17215e] to-[#0f6b43] px-6 py-4 text-sm font-black uppercase tracking-[0.14em] text-white shadow-2xl shadow-[#1f276f]/25 transition hover:-translate-y-0.5 hover:shadow-[#1f276f]/35 disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0"
+                className="group inline-flex w-full items-center justify-center rounded-2xl bg-[#1f276f] px-4 py-4 text-sm font-bold sm:text-base text-white shadow-2xl shadow-[#1f276f]/25 transition hover:bg-[#151d58] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1f276f] disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:translate-y-0"
               >
                 {isSubmitting ? "Submitting Enquiry..." : "Submit Admission Enquiry"}
                 <ArrowRight className="ml-2 h-5 w-5 transition group-hover:translate-x-1" />
@@ -579,6 +588,15 @@ export default function EnquiryPage() {
             </form>
           </div>
         </section>
+        <footer className="mt-8 border-t border-slate-200 pt-6 text-center text-xs leading-6 text-slate-500">
+          <p className="font-semibold text-[#1f276f]">Seth Malook Chand International School</p>
+          <p>Opp. Manglayatan Mandir, Aligarh-Agra Road, Sasni (U.P.) – 204216</p>
+          <div className="mt-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+            <a className="inline-flex min-h-11 items-center hover:text-[#1f276f]" href="tel:+917055000524">7055000524</a>
+            <a className="inline-flex min-h-11 items-center hover:text-[#1f276f]" href="tel:+917055000525">7055000525</a>
+            <a className="inline-flex min-h-11 items-center hover:text-[#1f276f]" href="mailto:admissions@smcis.in">admissions@smcis.in</a>
+          </div>
+        </footer>
       </div>
     </main>
   );

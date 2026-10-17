@@ -3,15 +3,15 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://smcis-admissions.edubridgeerp.in"),
-  title: "SMCIS Admission Form 2026-27 | Seth Malook Chand International School",
+  title: "SMCIS Admission Form 2027-28 | Seth Malook Chand International School",
   description:
-    "Admission Form 2026-27 for Seth Malook Chand International School. Submit parent and student details for admission guidance.",
+    "Admission Form 2027-28 for Seth Malook Chand International School. Submit parent and student details for admission guidance.",
   icons: {
     icon: "/images/smcis/logo.png",
     apple: "/images/smcis/logo.png",
   },
   openGraph: {
-    title: "SMCIS Admission Form 2026-27",
+    title: "SMCIS Admission Form 2027-28",
     description:
       "Fill the admission form for Seth Malook Chand International School.",
     url: "https://smcis-admissions.edubridgeerp.in",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SMCIS Admission Form 2026-27",
+    title: "SMCIS Admission Form 2027-28",
     description:
       "Submit parent and student details for admission guidance at SMCIS.",
     images: ["/images/smcis/logo.png"],
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "SMCIS",
     "Seth Malook Chand International School",
     "SMCIS Admissions",
-    "School Admissions 2026",
+    "School Admissions 2027",
     "CBSE School Sasni",
     "CBSE School Aligarh",
     "Best CBSE School near Aligarh",
